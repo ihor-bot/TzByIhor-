@@ -1,0 +1,10 @@
+<div>
+  <input
+    type="text"
+    value="{{ product.title }}"
+    [(ngModel)]="product.title"
+    placeholder="Write title here"
+  >
+  <button (click)="productExist ? onEdit() : onCreate()">Save</button>
+  <button *ngIf="productExist" (click)="onDelete()">Delete</button>
+</div>

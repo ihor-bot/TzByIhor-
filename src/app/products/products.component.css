@@ -1,0 +1,24 @@
+.products-item {
+  font-size: 20px;
+  color: black;
+}
+
+.products-item {
+  margin-bottom: 20px;
+}
+
+.products-item strong {
+  margin-right: 10px;
+}
+
+.products-create {
+  margin-top: 50px;
+  background: #ccc;
+  color: black;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}

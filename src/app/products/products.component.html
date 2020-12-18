@@ -1,0 +1,7 @@
+<div class="products">
+  <div class="products-item" *ngFor="let product of productsService.products; let i = index">
+    <strong>{{ i + 1 }}.</strong>
+    <a routerLink="single/{{product.id}}">{{ product.title }}</a>
+  </div>
+  <a class="products-create" routerLink="single/0">Create product</a>
+</div>

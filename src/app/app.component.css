@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .role-changer {
+  display: flex;
+  align-items: center;
+}
+
+
+.header .role-changer .role-changer-select {
+  height: 30px;
+  width: 150px;
+}
+
+.header .role-changer .role-changer-label {
+  margin-right: 15px;
+}

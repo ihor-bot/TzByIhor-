@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="header">
+    <h1>{{ title }}</h1>
+    <div class="role-changer">
+      <label for="roleChanger" class="role-changer-label">Select role:</label>
+      <select id="roleChanger" class="role-changer-select" (change)="roleService.setRole($event.target.value)">
+        <option [value]="role" *ngFor="let role of roleService.getRoles()">{{role}}</option>
+      </select>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>
